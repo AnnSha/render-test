@@ -1,3 +1,12 @@
+PUT http://localhost:3001/api/notes/644948c084c6a4480099e3cf
+Content-Type: application/json
+
+{
+  "content": "render +++++",
+  "important": true
+}
+
+
 ###
 
 GET http://localhost:3001/api/notes/2
@@ -9,8 +18,8 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-  "content": "content",
-  "important": true
+  "content": "render",
+  "important": false
 }
 ###
 
@@ -18,7 +27,7 @@ GET http://localhost:3001/api/notes
 Accept: application/json
 
 ###
-DELETE http://localhost:3001/api/notes/1
+DELETE http://localhost:3001/api/notes/644ce93c74aacd52137b8a6d
 Accept: application/json
 
 ###
